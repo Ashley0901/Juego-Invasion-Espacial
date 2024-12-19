@@ -1,0 +1,51 @@
+Juego Invasión Espacial
+
+Invasión Espacial es un videojuego desarrollado en Python utilizando la biblioteca Pygame.
+En este juego, los jugadores controlan una nave espacial que dispara balas para defenderse de una
+invasión alienígena. El objetivo es obtener la mayor cantidad de puntos destruyendo enemigos antes
+de que estos lleguen al fondo de la pantalla.
+
+Requisitos:
+Python 3.8 o superior
+Biblioteca Pygame instalada
+
+
+Instrucciones para Jugar:
+Utiliza las flechas izquierda (←) y derecha (→) para mover la nave espacial.
+Presiona la barra espaciadora (Espacio) para disparar balas hacia los enemigos.
+Destruye a todos los enemigos antes de que alcancen la parte inferior de la pantalla.
+Cada enemigo destruido otorga 1 punto.
+Si un enemigo alcanza la parte inferior, el juego termina.
+
+Archivos Necesarios:
+Fondo.jpg: Imagen de fondo para el juego.
+cohete.png: Imagen de la nave espacial del jugador.
+enemigo.png: Imagen de los enemigos.
+bala.png: Imagen de la bala.
+ovnis.png: Ícono del juego.
+MusicaFondo.mp3: Música de fondo.
+disparo.mp3: Efecto de sonido al disparar.
+Golpe.mp3: Efecto de sonido al colisionar con un enemigo.
+Asegúrate de que estos archivos estén en el mismo directorio que el archivo del código.
+
+Características del Juego:
+Múltiples enemigos: Hay un total de 8 enemigos (podemos cambiar la cantidad)
+que van descendiendo a una velocidad moderada(tambien podemos cambiar la valocidad).
+Colisiones: El juego detecta colisiones entre las balas y los enemigos.
+Sistema de puntaje: Muestra el puntaje acumulado en la esquina superior izquierda de la pantalla.
+Música y efectos de sonido: Incluye música de fondo y efectos para disparos y colisiones.
+Game Over: Muestra un mensaje de "JUEGO TERMINADO" cuando los enemigos llegan al fondo.
+
+Cómo Ejecutar el Juego:
+Clona este repositorio
+Coloca todos los recursos requeridos en el mismo directorio que el archivo del código.
+
+Ejecuta el archivo Python desde la cmd con el siguiente comando:
+python invasion_alienigena.py
+si te sale el siguiente mensaje: pygame.error: Failed loading libjpeg-9.dll: El sistema no tiene acceso al archivo.
+ejecuta el código desde un IDE al darle run
+
+Notas:
+Este fue un juego simple desarrollado como un ejemplo de videojuego en Python con Pygame para el simple fin
+de aprendizaje de esta libreria
+
